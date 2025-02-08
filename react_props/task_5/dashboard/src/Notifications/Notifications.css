@@ -1,0 +1,15 @@
+.Notifications-container {
+    position: relative;
+    margin: 10px;
+  }
+  
+  .notifications-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .Notifications {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }  
