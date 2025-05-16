@@ -4,10 +4,10 @@ import Header from './Header';
 
 test('renders the header component', () => {
   const { getByAltText, getByText } = render(<Header />);
-  
+
   // Verificar si el logo de Holberton se muestra
-  expect(getByAltText(/holberton logo/i)).toBeInTheDocument();
-  
+  expect(getByAltText('Holberton Logo')).toBeInTheDocument();
+
   // Verificar si el encabezado h1 contiene el texto correcto
-  expect(getByText(/Welcome to Holberton/i)).toBeInTheDocument();
+  expect(getByText('School dashboard')).toBeInTheDocument();
 });

@@ -1,13 +1,13 @@
 import React from 'react';
-import './Header.css';  // Importamos el archivo CSS relacionado
+import './Header.css';
 
 function Header() {
   return (
     <header className="App-header">
-      <h1>Welcome to Holberton School!</h1>
       <img src="https://example.com/logo.png" alt="Holberton Logo" />
+      <h1>School dashboard</h1>
     </header>
   );
 }
 
-export default Header;:WebGLQuery
+export default Header;
