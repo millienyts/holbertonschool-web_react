@@ -5,7 +5,7 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer>
-      <p>Copyright {year} - Holberton School</p>
+      <p>© {year} - Holberton School</p>
     </footer>
   );
 }
