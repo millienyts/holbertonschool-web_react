@@ -1,0 +1,15 @@
+# Node modules (nunca se deben subir)
+node_modules/
+
+# Archivos generados por Webpack en task_2
+Webpack/task_2/public/bundle.js
+Webpack/task_2/public/bundle.js.LICENSE.txt
+Webpack/task_2/public/images/
+
+# Carpeta generada por Webpack en task_3
+Webpack/task_3/public/
+
+# Logs de npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
